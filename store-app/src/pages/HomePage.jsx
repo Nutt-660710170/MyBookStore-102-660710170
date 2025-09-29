@@ -47,12 +47,13 @@ const HomePage = () => {
     { name: 'การ์ตูน', icon: '🎨', color: 'bg-rose-100', slug: 'comics' },
     { name: 'วิชาการ', icon: '🎓', color: 'bg-lime-100', slug: 'academic' },
     { name: 'จิตวิทยา', icon: '🧠', color: 'bg-indigo-100', slug: 'psychology' },
+    { name: 'กีฬา', icon: '⚽', color: 'bg-yellow-100', slug: 'sport' },
   ];
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-sky-200">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-viridian-600 to-green-700 text-white">
+      <section className="relative bg-gradient-to-r from-viridian-600 to-green-700 text-black">
         <div className="container mx-auto px-4 py-24">
           <div className="max-w-3xl">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 animate-fade-in">
@@ -71,7 +72,7 @@ const HomePage = () => {
               </Link>
               <Link to="/categories" 
                 className="inline-flex items-center justify-center px-8 py-3 
-                border-2 border-white text-white font-semibold rounded-lg 
+                border-2 border-white text-black font-semibold rounded-lg 
                 hover:bg-white hover:text-viridian-600 transition-all duration-200">
                 ดูหมวดหมู่ทั้งหมด
               </Link>
@@ -93,8 +94,8 @@ const HomePage = () => {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center group">
-              <div className="bg-viridian-100 p-4 rounded-full w-20 h-20 mx-auto mb-4 
-                group-hover:bg-viridian-200 transition-colors">
+              <div className="bg-yellow-100 p-4 rounded-full w-20 h-20 mx-auto mb-4 
+                group-hover:bg-yellow-200 transition-colors">
                 <TruckIcon className="h-12 w-12 text-viridian-600" />
               </div>
               <h3 className="text-xl font-semibold mb-2">จัดส่งฟรี</h3>
