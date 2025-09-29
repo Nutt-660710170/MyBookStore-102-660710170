@@ -224,7 +224,7 @@ const ContactPage = () => {
                     <div className="flex justify-end">
                       <button
                         type="submit"
-                        className="px-8 py-3 bg-viridian-600 text-white font-semibold rounded-lg 
+                        className="px-8 py-3 bg-green-600 text-white font-semibold rounded-lg 
                           hover:bg-viridian-700 transition-colors transform hover:scale-105"
                       >
                         ส่งข้อความ
